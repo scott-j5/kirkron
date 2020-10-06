@@ -1,0 +1,48 @@
+/* colors */
+$white: #ffffff;
+$black: #000000;
+$primary: #4B4A59;
+$primary-accent: #D9AC59;
+$alt-accent-1: #D9AB73;
+$alt-accent-2: #261201;
+$alt-accent-3: #A67246;
+
+
+/* Shades */
+$very-very-light-grey: #F2F2F2;
+$very-light-grey: #aeb2bf;
+$light-grey: #9498a5;
+$grey: #6b6d74;
+$dark-grey: #383a42;
+$very-dark-grey: #1d1e21;
+
+
+/* Notification colors */
+$success: #7ed321;
+$error: #ff3466;
+$info: #1e83d6;
+$warn: #d6d31e;
+
+/* Typography */
+$a-color: #1e83d6;
+
+/* breakpoints */
+$screen-xs:576px;
+$screen-sm:699px;
+$screen-md:918px;
+$screen-lg:1920px;
+$screen-xl:2400px;
+$screen-xxl:3000px;
+
+/* % Based Spacings */
+$page-width:85%;
+$page-padding: calc((100% - $page-width) / 2);
+$grid-column-spacing: 13%;
+$grid-column-spacing-px: 30px;
+
+/* REM Responsive Spacings */
+$space-sm: .5rem;
+$space-md: 1rem;
+$space-lg: 1.5rem;
+$space-xl: 2rem;
+$space-xxl: 3rem;

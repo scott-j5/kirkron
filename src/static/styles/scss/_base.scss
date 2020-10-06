@@ -1,0 +1,192 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: $white;
+}
+
+.full-height{
+    height:100vh;
+}
+
+.full-width{
+    width:100vw;
+}
+
+
+//GRID COMPONENTS
+.col-1{
+    @include cols(1);
+}
+
+.col-2{
+    @include cols(2);
+}
+
+.col-3{
+    @include cols(3);
+}
+
+.col-1-sm{
+    @media(max-width: $screen-md){
+        @include cols(1);
+    }
+}
+
+.col-2-sm{
+    @media(max-width: $screen-md){
+        @include cols(2);
+    }
+}
+
+.col-3-sm{
+    @media(max-width: $screen-md){
+        @include cols(3);
+    }
+}
+
+.row-1{
+    @include rows(1);
+}
+
+.row-2{
+    @include rows(2);
+}
+
+.row-3{
+    @include rows(3);
+}
+
+.row-1-sm{
+    @media(max-width: $screen-md){
+        @include rows(1);
+    }
+}
+
+.row-2-sm{
+    @media(max-width: $screen-md){
+        @include rows(2);
+    }
+}
+
+.row-3-sm{
+    @media(max-width: $screen-md){
+        @include rows(3);
+    }
+}
+
+
+//FLEX COMPONENTS
+.flex-y{
+    display:flex;
+    flex-direction: column;
+ }
+ 
+ .flex-x{
+    display:flex;
+    flex-direction: row;
+ }
+ 
+ .flex-y-sm{
+    @media(max-width: $screen-sm){
+       display:flex;
+       flex-direction: column;
+    }
+ }
+ 
+ .flex-x-sm{
+    @media(max-width: $screen-sm){
+       display:flex;
+       flex-direction: row;
+    }
+ }
+
+
+ //FLEX POSITIONING COMPONENTS
+ .self-cetner-x{
+    justify-self:center;
+ }
+
+ .self-center-y{
+    align-self:center;
+ }
+
+ .self-center-xy{
+    justify-self:center;
+    align-self:center;
+ }
+
+ .content-space-between{
+    display:flex;
+    justify-content:space-between;
+ }
+
+ .content-space-around{
+    display:flex;
+    justify-content:space-around;
+ }
+
+ .content-center-x{
+    display:flex;
+    justify-items:center;
+    justify-content:center;
+ }
+ 
+ .content-center-y{
+    display:flex;
+    align-items:center;
+ }
+ 
+ .content-center-xy{
+    display:flex;
+    justify-items:center;
+    justify-content:center;
+    align-items:center;
+ }
+
+ .content-flex-end{
+    display:flex;
+    align-items:flex-end;
+ }
+
+
+//DIMENSION COMPONENTS
+.fill{
+    width:100%;
+    height:100%;
+}
+
+.w-100{
+    width:100%;
+}
+
+.w-75{
+    width:75%;
+}
+
+.w-50{
+    width:50%;
+}
+
+.w-25{
+    width:25%;
+}
+
+
+//MARGINS
+.no-m-t{
+    margin-top: 0px;
+}
+
+.no-m-b{
+    margin-bottom: 0px;
+}
+
+
+//PADDING
+.no-p-t{
+    padding-top: 0px;
+}
+
+.no-p-b{
+    padding-bottom: 0px;
+}

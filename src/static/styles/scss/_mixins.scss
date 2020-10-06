@@ -1,0 +1,12 @@
+@mixin cols($cols){
+    display: grid;
+    grid-template-columns: repeat($cols, 1fr);
+    grid-template-rows: auto;
+}
+
+@mixin rows($rows){
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat($rows, 1fr);
+}
+

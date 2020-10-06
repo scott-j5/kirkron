@@ -1,0 +1,84 @@
+body{
+    font-family:'raleway', 'roboto', sans-serif;
+    color: $dark-grey;
+ }
+
+html{
+    font-size: 11px;
+
+    @media (min-width:$screen-sm){
+        font-size: 12px;
+    }
+    @media (min-width:$screen-md){
+        font-size: 16px;
+    }
+    @media (min-width:$screen-lg){
+        font-size: 20px;
+    }
+    @media (min-width:$screen-xl){
+        font-size: 26px;
+    }
+    @media (min-width:$screen-xxl){
+        font-size: 29px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, body {
+    font-weight: 200;
+  }
+
+h1{
+    font-size:3.4rem;
+    font-weight:200;
+    margin-block-start: .8em;
+    margin-block-end: .8em;
+}
+
+h2{
+    font-size:2.8rem;
+    margin-block-start: .8em;
+    margin-block-end: .8em;
+}
+
+h3{
+    font-size:2.2rem;
+    margin-block-start: .8em;
+    margin-block-end: .8em;
+}
+  
+h4 {
+    font-size: 1.5rem;
+    margin-block-start: .8em;
+    margin-block-end: .8em;
+}
+
+h5 {
+    font-size: 1rem;
+    margin-block-start: .8em;
+    margin-block-end: .8em;
+}
+
+strong{
+    font-weight:430;
+}
+
+hr{
+    height: 1px;
+    background-color: $light-grey;
+    border: none;
+}
+
+a{
+    color:$a-color;
+    text-decoration:none;
+}
+
+//LISTS
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
