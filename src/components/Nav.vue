@@ -6,7 +6,7 @@
       <ul class="content-space-around">
         <router-link to="/"><li>Home</li></router-link>
         <router-link to="/about"><li>About Us</li></router-link>
-        <router-link to="/"><li>Projects</li></router-link>
+        <router-link to="/projects"><li>Projects</li></router-link>
         <router-link to="/contact"><li>Contact Us</li></router-link>
       </ul>
     </nav>
@@ -26,6 +26,7 @@ export default {
 <style scoped lang="scss">
 #nav-container{
   position: fixed;
+  z-index: 50;
   top:0px;
   left:0px;
 }

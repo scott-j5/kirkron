@@ -23,6 +23,6 @@ export default {
   color:$white;
   background-color:$dark-grey;
   @include linear-gradient-bg(bottom right);
-  box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+  box-shadow:0px 0px 30px rgba(0,0,0,0.5);
 }
 </style>

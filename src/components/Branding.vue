@@ -1,6 +1,6 @@
 <template>
   <div class="fill content-center-xy" id="landing-logo-container">
-    <img class="w-75" src="../assets/images/kirkron.svg">
+    <img class="w-66" src="../assets/images/kirkron.svg">
   </div>
 </template>
 
