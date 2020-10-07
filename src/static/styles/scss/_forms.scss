@@ -1,0 +1,131 @@
+form{
+    transition: opacity 500ms ease-out;
+}
+
+textarea{
+    resize:vertical;
+    font-family:inherit;
+    font-weight:inherit;
+    color:$dark-grey;
+    min-height:2.6em;
+    max-height:250px;
+}
+
+input{
+    font-family:inherit;
+    font-weight:inherit;
+    color:$dark-grey;
+}
+
+.input-container{
+    display:flex;
+    margin-top:$space-lg;
+    margin-bottom:$space-lg;
+ }
+
+ .input-container.border-right{
+    border-right:1px $primary-accent solid;
+ }
+ 
+ .input-field{
+    width:100%;
+    padding: 0.7em;
+    font-size: 1em;
+    margin: 0px;
+    outline:none;
+    box-sizing: border-box;
+    border-radius: 0px;
+    border: 2px $transparent solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+ }
+
+.input-field:focus{
+    border-image-slice: 1;
+    border-width: 2px;
+    border-bottom:2px solid;
+    border-image-source: linear-gradient(to right, $primary-accent, $grey);
+}
+
+.button-muted{
+    border:none;
+    padding:0px;
+    margin:0px;
+}
+
+ .fa-input-icon{
+    color:$white;
+    font-size: 1em;
+    width: 1.2em;
+    height: 1em;
+    padding: 0.7em;
+    border:2px $transparent solid;
+    text-align: center;
+    transition: padding 100ms ease-out, font-size 100ms ease-out;
+}
+
+.fa-input-icon-hover:hover{
+    color:$white;
+    background-color: $dark-grey;
+    font-size: 1.2em;
+    width: 1.2em;
+    height: 1em;
+    padding: 0.5em;
+}
+
+.form-alert{
+    width:100%;
+}
+
+.form-success{
+    color:$success;
+    text-align:center;
+    vertical-align:middle;
+    &::before{
+        font-family:"Font Awesome 5 Free";
+        color:inherit;
+        font-weight: 900;
+        vertical-align:middle;
+        content:"\f00c \0020";
+    }
+}
+
+.form-info{
+    color:$info;
+    text-align:center;
+    vertical-align:middle;
+    &::before{
+        font-family:"Font Awesome 5 Free";
+        color:inherit;
+        font-weight: 900;
+        vertical-align:middle;
+        content:"\f00d \0020";
+    }
+}
+
+.form-warn{
+    color:$warn;
+    text-align:center;
+    vertical-align:middle;
+    &::before{
+        font-family:"Font Awesome 5 Free";
+        color:inherit;
+        font-weight: 900;
+        vertical-align:middle;
+        content:"\f00d \0020";
+    }
+}
+
+.form-error{
+    color:$error;
+    text-align:center;
+    vertical-align:middle;
+    &::before{
+        font-family:"Font Awesome 5 Free";
+        color:inherit;
+        font-weight: 900;
+        vertical-align:middle;
+        content:"\f00d \0020";
+    }
+}

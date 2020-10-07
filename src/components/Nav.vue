@@ -31,6 +31,6 @@ export default {
 }
 
 #nav-container ul li{
-  color: $dark-grey;
+  color: $white;
 }
 </style>

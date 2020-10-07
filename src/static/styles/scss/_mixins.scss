@@ -10,3 +10,10 @@
     grid-template-rows: repeat($rows, 1fr);
 }
 
+@mixin linear-gradient-bg($direction){
+    background-image: linear-gradient(to $direction, $dark-grey, $very-dark-grey)
+}
+
+@mixin conic-gradient-bg($direction){
+    background-image: conic-gradient(from $direction, $dark-grey, $very-dark-grey)
+}

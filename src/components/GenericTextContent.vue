@@ -1,9 +1,6 @@
 <template>
-  <div class="col-2 row-2-sm full-height">
-    <div class="fill content-center-xy" id="landing-logo-container">
-      <img class="w-75" src="../assets/images/kirkron.svg">
-    </div>
-    <div class="fill flex-y content-center-xy" id="landing-text-container">
+  <div class="fill content-center-xy" id="generic-text-container">
+    <div class="w-66">
       <h1 class="no-m-t">{{title}}</h1>
       <p>{{subheading}}</p>
     </div>
@@ -12,7 +9,7 @@
 
 <script>
 export default {
-  name: 'Landing',
+  name: 'GenericTextContent',
   props: {
     title: String,
     subheading: String
@@ -22,12 +19,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-#landing-logo-container{
-  
-}
-#landing-text-container{
+#generic-text-container{
   color:$white;
   background-color:$dark-grey;
+  @include linear-gradient-bg(bottom right);
   box-shadow:0px 0px 10px rgba(0,0,0,0.5);
 }
 </style>

@@ -2,20 +2,20 @@
   <div class="about">
     <div class="col-2 row-2-sm full-height">
       <Branding></Branding>
-      <GenericTextContent title="About Us" subheading="About us text"></GenericTextContent>
+      <ProjectsContent></ProjectsContent>
     </div>
   </div>
 </template>
 
 <script>
 import Branding from '../components/Branding.vue'
-import GenericTextContent from '../components/GenericTextContent.vue'
+import ProjectsContent from '../components/ProjectsContent.vue'
 
 export default {
-  name: 'About',
+  name: 'Projects',
   components: {
     Branding,
-    GenericTextContent,
+    ProjectsContent,
   }
 }
 </script>
