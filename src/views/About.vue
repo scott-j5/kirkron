@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    <div class="col-2 row-2-sm full-height">
+  <div class="about w-100 h-100">
+    <div class="col-2 flex-y-sm h-100">
       <Branding></Branding>
       <GenericTextContent title="About Us" subheading="About us text"></GenericTextContent>
     </div>

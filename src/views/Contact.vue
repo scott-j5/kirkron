@@ -1,6 +1,6 @@
 <template>
-  <div class="contact">
-    <div class="col-2 row-2-sm full-height">
+  <div class="contact w-100 h-100">
+    <div class="col-2 flex-y-sm h-100">
       <Branding></Branding>
       <ContactForm title="Contact Us" subheading=""></ContactForm>
     </div>

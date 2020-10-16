@@ -20,7 +20,7 @@ input{
 .input-container{
     display:flex;
     margin-top:$space-lg;
-    margin-bottom:$space-lg;
+    margin-bottom:$space-sm;
  }
 
  .input-container.border-right{
@@ -80,7 +80,6 @@ input{
 
 .form-success{
     color:$success;
-    text-align:center;
     vertical-align:middle;
     &::before{
         font-family:"Font Awesome 5 Free";
@@ -93,7 +92,6 @@ input{
 
 .form-info{
     color:$info;
-    text-align:center;
     vertical-align:middle;
     &::before{
         font-family:"Font Awesome 5 Free";
@@ -106,7 +104,6 @@ input{
 
 .form-warn{
     color:$warn;
-    text-align:center;
     vertical-align:middle;
     &::before{
         font-family:"Font Awesome 5 Free";
@@ -119,7 +116,6 @@ input{
 
 .form-error{
     color:$error;
-    text-align:center;
     vertical-align:middle;
     &::before{
         font-family:"Font Awesome 5 Free";

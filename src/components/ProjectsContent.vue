@@ -5,7 +5,8 @@
         <div v-for="(proj, key) in projects" :key="key" :class="'slide content-center-x ' + ((currentIndex == key) ? 'active' : '')" :id="'slide-' + key">
           <div class="slide-text h-100 w-66 flex-y content-center-x">
             <h1 class="no-m-t">{{proj.name}}</h1>
-            <p>{{proj.desc}}</p>
+            <p v-if="proj['desc']" class="no-m-t">{{proj.desc}}</p>
+            <router-link v-if="proj['linkTo']" :to="proj.linkTo">{{proj.linkText}}</router-link>
           </div>
           <img class="object-cover" :src="proj.img.startsWith('http') ? proj.img : require('@/assets/images/' + proj.img)"/>
         </div>
